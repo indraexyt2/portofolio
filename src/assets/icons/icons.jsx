@@ -14,6 +14,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Markunread';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import ArrowIcon from '@mui/icons-material/ArrowForwardOutlined';
+import PrevIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
+import NextIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 
 export {
     HelloIcon,
@@ -31,5 +33,7 @@ export {
     InstagramIcon,
     EmailIcon,  
     WhatsAppIcon,
-    ArrowIcon
+    ArrowIcon,
+    PrevIcon,
+    NextIcon
 }

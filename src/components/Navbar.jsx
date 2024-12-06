@@ -220,7 +220,7 @@ const Navbar = () => {
                             animate={{ y: "0%" }}
                             exit={{ y: "-100%" }}
                             transition={{ duration: 0.8, ease: "easeOut", delay: 0 }}
-                        className='absolute bg-white inset-0 h-screen z-10 pt-24'>
+                        className='fixed bg-white inset-0 h-screen z-10 pt-24'>
                             <ul className='mx-8 space-y-4 flex flex-col'>
                                 <AnimatePresence mode='wait'>
                                     {navLinks.map((link, index) => (

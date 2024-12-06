@@ -188,3 +188,7 @@ body {
 .cv {
   box-shadow: -10px 10px 0 0 #0f172a;
 }
+
+.next-page {
+  box-shadow: -3px 3px 0 0 #0f172a;
+}
