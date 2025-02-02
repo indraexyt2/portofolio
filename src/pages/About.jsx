@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import useLoadingStore from '../store/LoadingStore';
 import Title from '../components/common/Title';
 import FotoIndra from '../assets/img/IndrawnsyhPng.png';
-import { Javascript, ReactJS, NodeJS, Express, Mongo, Tailwind, Golang, Mysql, Framer, Docker } from '../assets/img/stack/main.jsx';
+import { Javascript, ReactJS, Express, Tailwind, Golang, Mysql, Framer, Docker, Gin, Echo, Gorm, Kafka, Postgres, Redis } from '../assets/img/stack/main.jsx';
 
 const About = () => {
   const navigate = useNavigate();
@@ -27,29 +27,33 @@ const About = () => {
   const AboutMe = [
     {
       id: 1,
-      p: 'As a graduate in Japanese Literature, I’ve developed a deep interest in technology and software development. While my academic background is rooted in language and culture, I’ve cultivated a strong passion for Full Stack Development, focusing on mastering modern technologies.',
+      p: 'As a Japanese Literature graduate, I have developed a deep interest in technology and software development. Despite my academic background in language and culture, I have cultivated a strong passion for Backend Development. This passion has driven me to explore various programming languages and frameworks, allowing me to transition into the world of software engineering.'
     },
     {
       id: 2,
-      p: 'I have hands-on experience with JavaScript, React.js, Node.js, and Express.js to build dynamic, scalable web applications. Additionally, I am proficient in using MongoDB for efficient data management and system development.',
-    },
+      p: 'With hands-on experience in JavaScript, Express.js, Golang, Gorm, and Gin, I focus on building dynamic and scalable web applications. My expertise extends to database management using MySQL, PostgreSQL, and Redis, ensuring efficient data handling and optimized performance.'
+     },
     {
       id: 3,
-      p: 'My analytical skills, honed through my academic journey, allow me to approach problem-solving and project development in a structured and thoughtful way. I am committed to continuous learning and adapting to new technologies, with a focus on creating impactful and valuable solutions.',
-    },
+      p: 'Beyond backend development, I also have a basic understanding of React, which enables me to contribute to both the backend and frontend aspects of application development. My goal is to be part of innovative projects that prioritize reliability and efficiency, contributing to the development of high-performance server-side systems.'
+     },
   ];
 
   const MyStack = [
-    { title: 'JavaScript', icon: Javascript },
-    { title: 'React.js', icon: ReactJS },
-    { title: 'Node.js', icon: NodeJS },
-    { title: 'Express.js', icon: Express },
-    { title: 'MongoDB', icon: Mongo },
-    { title: 'Tailwind', icon: Tailwind },
     { title: 'GO', icon: Golang },
+    { title: 'Gin', icon: Gin },
+    { title: 'Echo', icon: Echo },
+    { title: 'GORM', icon: Gorm },
+    { title: 'Kafka', icon: Kafka },
+    { title: 'JavaScript', icon: Javascript },
+    { title: 'Express.js', icon: Express },
     { title: 'MySQL', icon: Mysql },
+    { title: 'PostgreSQL', icon: Postgres },
+    { title: 'Redis', icon: Redis },
     { title: 'Framer', icon: Framer },
     { title: 'Docker', icon: Docker },
+    { title: 'React.js', icon: ReactJS },
+    { title: 'Tailwind', icon: Tailwind },
   ];
 
   const stackContainerVariants = {
@@ -121,7 +125,7 @@ const About = () => {
             {AboutMe.map((item) => (
               <p
                 key={item.id}
-                className="mb-5 text-slate-800 font-semibold text-lg sm:text-xl"
+                className="mb-5 text-slate-800 font-semibold text-lg sm:text-lg"
               >
                 {item.p}
               </p>

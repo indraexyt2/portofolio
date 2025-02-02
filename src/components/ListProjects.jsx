@@ -1,12 +1,24 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GitHubIcon } from '../assets/icons/icons.jsx';
-import { MovieApp, MernAuth } from '../assets/img/projects/main.jsx';
+import { MovieApp, MernAuth, GoHotel, GoEcommerce } from '../assets/img/projects/main.jsx';
 import CircleButton from './common/CircleButton.jsx';
 
 const ProjectsList = () => {
 
     const ListMyProject = [
+        {
+            title: "Go Hotel",
+            description: "A hotel booking platform that allows users to easily search, book, and manage hotel reservations. Built on a microservices architecture.",
+            image: GoHotel,
+            link: "https://github.com/indraexyt2/go-hotel"
+        },
+        {
+            title: "Go E-Commerce",
+            description: "A system for managing products, orders, and user data with go, redis and kafka built on a microservice architecture. And use e-wallet for payments.",
+            image: GoEcommerce,
+            link: "https://github.com/indraexyt2/e-commerce"
+        },
         {
           title: "Movie App",
           description: "A simple movie app built with React.js and Tailwind CSS, using the TMDB API to display a list of movies and search for specific movies.",

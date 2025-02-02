@@ -88,7 +88,7 @@ const Home = () => {
             </p>
           </span>
           <p className='text-gray-600 font-semibold'>
-            I am a Junior <b>Fullstack Developer</b> with experience in building efficient and user-friendly web applications. I work on both <b>frontend</b> and <b>backend</b> to deliver functional and reliable solutions.
+            I'm a <b>Backend Developer</b> skilled in building scalable web applications using Golang, Gin, and Fiber. Proficient in PostgreSQL, MySQL, Gorm, Kafka, Redis, and Docker for efficient backend systems.
           </p>
           <div className='flex flex-col sm:flex-row gap-5'>
             <Button
